@@ -1,11 +1,11 @@
-function basicOp(operation, value1, value2){
-  if(operation === "+"){
-    return value1 + value2
-  } else if(operation === "-"){
-    return value1 - value2
-  } else if(operation === "*"){
-    return value1 * value2
+function basicOp(op, val1, val2){
+  if(op === "+"){
+    return val1 + val2
+  } else if(op === "-"){
+    return val1 - val2
+  } else if(op === "*"){
+    return val1 * val2
   } else {
-    return value1 / value2
+    return val1 / val2
   }
 }
