@@ -1,7 +1,7 @@
-function bonusTime(salary, bonus) {
+function bonusTime(salary, bonus){
   if(bonus === true){
     return "\u00A3"+ salary * 10
-} else{
+  }else{
     return "\u00A3" + salary
-}
+  }
 }
