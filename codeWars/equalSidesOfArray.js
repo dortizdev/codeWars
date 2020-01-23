@@ -1,4 +1,4 @@
-function checkIndex(arr, index) {
+function checkIndex(arr, index){
   let sum1 = 0;
   let sum2 = 0;
   if (index == -1) {
@@ -17,8 +17,7 @@ function checkIndex(arr, index) {
   }
 }
 
-function findEvenIndex(arr)
-{
+function findEvenIndex(arr){
   for (let i = 0 ; i < arr.length ; i++) {
     if(checkIndex(arr, i)){
       return i
